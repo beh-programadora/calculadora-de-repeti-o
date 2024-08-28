@@ -1,0 +1,46 @@
+
+### .gitignore
+
+```gitignore
+# Ignorar arquivos Python compilados
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar diretórios de cache
+__pycache__/
+Enunciado do Projeto
+# Enunciado do Projeto: Calculadora Interativa
+
+## Objetivo
+
+Desenvolver um script em Python que funcione como uma calculadora interativa, permitindo ao usuário realizar operações aritméticas básicas (+, -, *, /) entre dois números. O usuário deve ter a opção de continuar realizando cálculos até decidir encerrar o programa.
+
+## Requisitos
+
+1. O script deve iniciar um loop que permita ao usuário realizar cálculos repetidamente.
+2. Solicite ao usuário dois números e a operação desejada (+, -, *, /).
+3. Realize a operação aritmética com base na entrada do usuário e exiba o resultado.
+4. Se a operação for uma divisão e o segundo número for zero, exiba uma mensagem de erro apropriada.
+5. Se o usuário digitar 'sair', o programa deve encerrar.
+6. Se o usuário inserir uma operação inválida, exiba uma mensagem de erro.
+
+## Passos para Implementação
+
+1. Crie um arquivo chamado `calculadora.py`.
+2. Implemente um loop `while` para permitir operações repetidas.
+3. No início de cada iteração do loop, leia dois números e a operação desejada do usuário.
+4. Utilize uma estrutura condicional `if-elif-else` para realizar a operação correspondente.
+5. Verifique se o usuário deseja encerrar o programa.
+6. Exiba o resultado da operação ou uma mensagem de erro, conforme o caso.
+7. Salve e execute o script para verificar se o resultado está correto.
+
+## Exemplo de Saída Esperada
+
+Digite o primeiro número: 10 Digite o segundo número: 5 Digite a operação (+,-,*,/) ou 'sair' para encerrar: + Resultado: 15.0
+
+Digite o primeiro número: 8 Digite o segundo número: 0 Digite a operação (+,-,*,/) ou 'sair' para encerrar: / Resultado: Erro: divisão por zero
+
+Digite o primeiro número: 7 Digite o segundo número: 3 Digite a operação (+,-,*,/) ou 'sair' para encerrar: - Resultado: 4.0
+
+Digite o primeiro número: 0 Digite o segundo número: 0 Digite a operação (+,-,*,/) ou 'sair' para encerrar: sair
